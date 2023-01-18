@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module-13</title>
+    <link rel="shortcut icon" href="images/nizam.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:blueviolet;">
+        <div class="container-fluid">
+          <a class="navbar-brand h1 fs-1 fw-bold bg-primary text-light" href="index.html">Milstone 03</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="mod12.html">Module-12</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-primary" href="mod7.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Milstone 02
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mod7.html">Module-7</a></li>
+                  <li><a class="dropdown-item" href="mod8.html">Module-8</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="mod9.html">Module-9</a></li>
+                  <li><a class="dropdown-item" href="mod10.html">Module-10</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary" href="mod13.html">Module-13</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+        <img style="width: 100%;" src="images/milstone3.png">
+    </header>
+    <marquee class="bg-primary text-light">
+        <h1> Welcome to Complete Web Development Course With Jhankar Mahbub, Milstone 03, Module-13 Practice Section, I am Nizam Batch 07.</h1>
+    </marquee><br>
+
+    <h2 class="fs-1 bg-warning text-center"> Module-13 : Responsive Layout Using Bootstrap</h2>
+    <h3 class="display-4 text-center"> Video 13-1: Module Introduction and Recap</h3>
+    <p class="text-center"> Download botstrap.min css and bootstrap.min.css file for ofline use bootstrap</p>
+    <h4> Bootstrap Layout,content, Typography, Image-fluid,component, accordian, card, carosel, navbar, utilities, color,spacing, 1rem=16px, </h4>
+    <h3> Accordion</h3><br>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <section>
+      <h3 class="display-5 ms-5"> Video 13-2 : Flex layout, justify content, align items, horizontal center</h3>
+      <div class="w-80 d-flex border border-4 border-danger justify-content-around align-items-center" style="height: 50rem">
+        <div class="w-25 h-50 border border-5 border-success">
+            <img class="img-fluid" src="images/valantinesday.jpg" alt="">
+            <h3> Valantines Day</h3>
+            <p>Price: $100</p>
+        </div>
+        <div class="w-25 h-50 border border-5 border-success">
+            <img class="img-fluid" src="images/valantinesday.jpg" alt="">
+            <h3> Valantines Day</h3>
+            <p>Price: $100</p>
+        </div>
+        <div class="w-25 h-50 border border-5 border-success">
+            <img class="img-fluid" src="images/food.png" alt="">
+            <h3> Valantines Day</h3>
+            <p>Price: $100</p>
+        </div>
+      </div>
+    </section><br>
+    <section>
+        <h3 class="display-5 text-center"> Video 13-3 : Bootstrap responsive Container and breakpoints </h3>
+        <p class="text-center ms-5"> sm= small device, xl= extra large, container container-fluid=taking full width, grid, 12 column layout, 6-6=for two column, 4-4-4=for 3 column, for mobile device 12=1 col, col-lg-4, col-md-6, container>row>container, gx- horijontal gutter or gap. gy=vertical gutter.</p>
+    </section><br>
+    <section class="text-center">
+        <h3 class="display-5 text-center"> 13-4 Grid : System with 12 column layout, responsive grid</h3>
+        <p> 5 Concepts for Responsive Website</p>
+        <ol>
+            <li> Container</li>
+            <li> Row</li>
+            <li> Column</li>
+            <li> Breakpoints</li>
+            <li> 12 columns with breakpoints</li>
+        </ol><br>
+        <div class="container-fluid">
+            <h3> Responsive Cols</h3>
+            <div class="row">
+                <!-- .col>h2>{column-2}+p>lorem30 -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h4>
+                        column-1
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id blanditiis consequatur, inventore impedit officia animi quaerat nobis assumenda et, dolorum neque repudiandae a molestias porro possimus eius est iure. Ratione!</p>
+                    </h4>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h5>
+                        column-2
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam mollitia adipisci veritatis recusandae praesentium perferendis aperiam dolore laudantium, est a inventore deserunt, tenetur sed quia eaque quae! Explicabo, veritatis cupiditate.</p>
+                    </h5>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h5>
+                        column-3
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit labore quis nam corporis. Reprehenderit, voluptatum! Voluptas commodi quis facilis dolore, quaerat nulla rem tenetur magni, ipsam eius voluptatibus nesciunt eligendi?</p>
+                    </h5>
+                </div>
+                <div class="col">
+                    <h5>
+                        column-4
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, consequatur, placeat dolor consectetur doloribus ad quos est nulla sunt ex cumque corrupti. Error exercitationem aperiam labore, iste animi perferendis obcaecati!</p>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <h2> Again Responsive</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 .col-lg-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, dolores nihil quisquam mollitia voluptatibus officiis. Voluptatibus dicta est maiores libero sapiente quae distinctio adipisci, autem ex eligendi dolorum labore minus illo magni nostrum accusamus architecto, alias pariatur. Similique corporis soluta deserunt! Corporis cum maiores eos necessitatibus velit sed veniam eum?
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid">
+        <h3 class="display-5"> Video 13-5 : Responsive players using bootstrap grid columns</h3>
+        <h2> Team players</h2>
+        <div>
+            <div class="row">
+                <div class="col-12 col-lg-2 col-md-3 col-xl-3">
+                    <img class="img-fluid" src="images/player2.jpg">
+                    <h4> Player-1</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deleniti mollitia facere rem incidunt, porro commodi labore veniam sit nulla!</p>
+                </div>
+                <div class="col-12 col-lg-2 col-md-3 col-xl-3">
+                    <img class="img-fluid" src="images/player2.jpg">
+                    <h4> Player-2</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deleniti mollitia facere rem incidunt, porro commodi labore veniam sit nulla!</p>
+                </div>>
+                <div class="col-12 col-lg-2 col-md-3 col-xl-3">
+                    <img class="img-fluid" src="images/player3.jpeg">
+                    <h4> Player-3</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deleniti mollitia facere rem incidunt, porro commodi labore veniam sit nulla!</p>
+                </div>
+                <div class="col-12 col-lg-2 col-md-3 col-xl-3">
+                    <img class="img-fluid" src="images/player4.jpg">
+                    <h4> Player-4</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem deleniti mollitia facere rem incidunt, porro commodi labore veniam sit nulla!</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="display-1"> Responsive experiment</h1>
+        <!-- .container-fluid>.row>.col-12.col-sm-6.col-md-4.col-lg-3.col-xl-2*12>img.img-fluid[src="images/player{$}+p>lorem20 -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player2.jpg" alt="" class="img-fluid">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus non consectetur ad sequi vero iste facilis eos totam. Dicta, ad.</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player2.jpg" alt="" class="img-fluid">
+                            <p>Sed quos ad et a maiores aliquid modi voluptas! Vero quia in esse laborum ratione error unde dolor odio quos.</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player3.jpeg" alt="" class="img-fluid">
+                            <p>Explicabo blanditiis maxime a rem illum quos ipsam, laudantium hic? Recusandae hic, facilis illo voluptatem animi temporibus dolorum error voluptatibus?</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player4.jpg" alt="" class="img-fluid">
+                            <p>Iste esse rem dolore? Repudiandae unde facilis deleniti ad soluta praesentium assumenda illo suscipit consequuntur numquam quod quo, corrupti nulla.</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player4.jpg" alt="" class="img-fluid">
+                            <p>Nam, cum velit quo quisquam asperiores consequatur nostrum repellat? Impedit minus magni nulla voluptatem nemo, tempore animi cumque corporis. Quidem.</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player2.jpg" alt="" class="img-fluid">
+                            <p>Sint voluptatibus quas et? Corrupti dolores aliquid, hic, magni beatae veritatis magnam aliquam maxime facilis, placeat sint sunt non? Placeat!</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player3.jpeg" alt="" class="img-fluid">
+                            <p>Quasi odit alias quidem aut, deleniti harum culpa ratione tempora, praesentium quis accusamus fugiat. Corrupti debitis adipisci atque dolorum eos!</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player4.jpg" alt="" class="img-fluid">
+                            <p>Possimus delectus magnam repellendus esse et libero ipsum natus tenetur minus, sit distinctio necessitatibus ipsam corrupti quidem facere unde voluptas?</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player4.jpg" alt="" class="img-fluid">
+                            <p>Blanditiis, beatae in ipsam voluptatibus officiis tempore dolores dolorem dolore alias dolor molestias facere, explicabo quae suscipit error odio consectetur.</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player2.jpg" alt="" class="img-fluid">
+                            <p>Excepturi eligendi voluptatibus, culpa temporibus ad provident id reiciendis porro, reprehenderit, eius necessitatibus. Accusamus culpa iste vitae quisquam neque ullam.</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player3.jpeg" alt="" class="img-fluid">
+                            <p>Sed quia necessitatibus aliquid dolorum praesentium! Iusto voluptate inventore temporibus, cupiditate minima eligendi quaerat tempore ducimus est quibusdam distinctio possimus!</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                            <img src="images/player4.jpg" alt="" class="img-fluid">
+                            <p>Voluptatum repellendus alias minima provident atque in quisquam exercitationem adipisci, accusamus fugiat aliquid ullam? Placeat eligendi expedita ad deleniti tempora.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section>
+        <h3> Video 13-6 : (Recap) More Responsive Example for Bags and Jackets </h3>
+        <div class="container-fluid">
+            <h2>Buy our Bags</h2>
+            <div class="row">
+                <!-- <div class="col-12 col-sm-6">
+                    <img src="images/player1.jpg" class="img-fluid" alt="">
+                    <h2> Bags</h2>
+                    <p> Price: $100</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <img src="images/player1.jpg" class="img-fluid" alt="">
+                    <h2> Bags</h2>
+                    <p> Price: $100</p>
+                </div>
+            </div> -->
+            <!-- .col-12.col-sm-6.col-md-4.col-lg-3*6>img.img-fluid[src="images/player-$.jpg"]+h2{Bag $}+p>lorem -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <img src="images/player2.jpg" alt="" class="img-fluid">
+                <h2>Bag 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea suscipit obcaecati atque itaque alias sunt nihil enim dolore, earum minima magni temporibus. Soluta voluptatem ratione quos necessitatibus neque sapiente vel!</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <img src="images/player1.jpg" alt="" class="img-fluid">
+                <h2>Bag 2</h2>
+                <p>Magni, sunt consectetur. Voluptate, est quia earum dolorem fuga enim ea! Reprehenderit labore pariatur est unde cupiditate incidunt ratione voluptate, laboriosam illo et vero praesentium nisi fuga dolorum quibusdam sit!</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <img src="images/player2.jpg" alt="" class="img-fluid">
+                <h2>Bag 3</h2>
+                <p>Explicabo illo iusto consequatur ullam, saepe suscipit perspiciatis ipsam nesciunt sapiente incidunt nihil laboriosam quisquam magnam dolores rerum sit at. Placeat quasi corrupti ipsam pariatur quam repudiandae inventore voluptates deleniti.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <img src="images/player4.jpg" alt="" class="img-fluid">
+                <h2>Bag 4</h2>
+                <p>Eos in incidunt quo earum fugit? Numquam exercitationem in quasi praesentium veniam eligendi consectetur illum laudantium nulla reiciendis rem facere explicabo, quis maxime! Nobis ipsam soluta maxime vel amet harum.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <img src="images/player3.jpeg" alt="" class="img-fluid">
+                <h2>Bag 5</h2>
+                <p>Explicabo quis unde officiis, perspiciatis nostrum dolores incidunt sunt voluptates nihil fugit ex dicta consequuntur quam iure nemo. Odit labore vitae dolorem iste possimus enim itaque. Cumque accusamus quibusdam esse?</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <img src="images/player4.jpg" alt="" class="img-fluid">
+                <h2>Bag 6</h2>
+                <p>Laborum perspiciatis ex animi quibusdam quam nobis deserunt praesentium enim earum quas, quo neque? Unde a odit numquam ad, debitis facere rerum sequi nihil doloremque, ratione quas nemo nisi dignissimos!</p>
+            </div>
+
+        </div>
+        
+    </section>
+    <!-- section.container>.row>.col-12.col-sm-6.col-md-4.col-lg-3.col-xl-2*6>img.img-fluid[src="images/bags/bsg-$.png"]+h2{Bags $}+p>lorem -->
+
+    <section> 
+        <h3> Video 13-7 :Responsive Card layout using card layout and gutters </h3>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-5">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/player1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Messi</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/player2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Neymar</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/player3.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mbappo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/player4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ronaldo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    <section> 
+      <h3 class="display-5 text-center"> Video: 13-8 Create Form with Floating label and form validation</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-items-center">
+            <h2> Please Login!</h2>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <img src="images/nizam.png">
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 class="display-5 text-center"> Modal</h3>
+        <button type="button" class="btn btn-primary ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Launch demo modal
+        </button>
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    <section>
+      <h3 class="display-5 text-center"> Video 13-9 : Module Summary and Explore Bootstrap examples and themes
+      </h3>
+      <p class="fs-3 text-center"> See Examples of bootstrap, sidebar, bootstrap theme </p>
+    </section>
+    <h1 class="fs-1 text-center bg-success text-light"> QUIZ</h1>
+    <div class="ms-5">
+    <h4> Q1: Which flex class will you use to put elements in the horizontal center of the available width?<br>
+    Ans: justify-content-center</h4>
+    <h4> Q2: Which flex class will you use to put elements in the vertical center of the available width?<br>
+    Ans: align-items-center</h4>
+    <h4> Q3: What is a carousel? It’s ok if you forgot! Just go to the bootstrap website and check it out.<br>
+    Ans: Image Slides in a website</h4>
+    <h4> Q4: If you want to have three columns in a row, how many bootstrap columns should each div have? <br>
+    Ans: 4 </h4>
+    <h4> Q5: Which bootstrap CSS class will you use to put the navbar at the top of the page? Feel free to check out the bootstrap website.<br>
+    Ans: fixed-top </h4>
+    <h4> Q6: Which class will give you vertical gutters in bootstrap grid system?<br>
+    Ans: gy-5 </h4>
+    <h4> Q7: Why did bootstrap divide the grid into 12 imaginary columns?<br>
+    Ans: 12 is easily divisible by 2, 3, 4 and 6</h4>
+    <h4> Q8: How wide are bootstrap’s gutters by default. (You can look it up in bootstrap website Layout > Gutters)<br>
+    Ans: 1.5rem(24px)</h4>
+    <h4> Q9: Which one is not a valid grid class prefix?<br>
+    Ans: col-sx-4 </h4>
+    <h4> Q10: How would you make your website responsive?<br>
+    Ans: By using Responsive classes for different divice width.</h4>
+
+  </div>
+  <h2 class="fs-1 bg-primary text-center text-light"> The End</h2>
+  <footer class="bg-dark text-light">
+    <section class="footer"><br><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-dark" style="width: 16rem;">
+              <img src="images/nizam.png" class="card-img-top img-fluid w-90" alt="...">
+              <div class="card-body">
+                <h5 class="card-text text-primary">Md Nizam Uddin | Batch-7</h5>
+                <p>Email: nizamuddin2020ctg@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-dark" style="width: 18rem;">
+              <div class="card-header">
+                Important Links
+              </div>
+              <ul class="list-group list-group-flush bg-dark">
+                <li><a href="index.html" class="list-group-item list-group-item-action list-group-item-primary bg-dark text-light">Home</a></li>
+                <li><a href="mod12.html" class="list-group-item-action list-group-item-primary list-group-item bg-dark text-light">Module-12</a></li>
+                <li><a href="mod13.html" class="list-group-item-action list-group-item-primary list-group-item bg-dark text-light">Module-13</a></li>
+                <li><a href="mod14.html" class="list-group-item-action list-group-item-primary list-group-item bg-dark text-light">Module-14</a></li>
+                <li><a href="mod7.html" class="list-group-item-action list-group-item-primary list-group-item bg-dark text-light">Milstone-2</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card bg-dark" style="width: 18rem;">
+              <div class="card-header">
+                <h1 class="fs-1 text-primary">Follow Me</h1>
+              </div>
+
+              <div class="card-body">
+                <i class="fa-brands fa-facebook w-25 fs-2 text"></i>
+                <i class="fa-brands fa-linkedin w-25 fs-2 text"></i>
+                <i class="fa-brands fa-github w-25 fs-2 text"></i>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+    <section class="copyright text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy;2022 Allright Reserved | Design by Md Nizam Uddin</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- Fontawesome kit -->
+  <script src="https://kit.fontawesome.com/ecd955ac38.js" crossorigin="anonymous"></script>
+<!-- Bootstrap js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
